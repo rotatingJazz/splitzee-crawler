@@ -5,7 +5,7 @@ node-crawler aims to be the best crawling/scraping package for Node.
 
 It features:
  * A clean, simple API
- * server-side DOM & automatic jQuery insertion
+ * server-side DOM & automatic jQuery insertion (via Cheerio, not jsDom)
  * Configurable pool size and retries
  * Priority of requests
  * forceUTF8 mode to let node-crawler deal for you with charset detection and conversion
@@ -18,14 +18,14 @@ Help & Forks welcomed!
 How to install
 --------------
 
-    $ npm install crawler
+    $ npm install splitzee-crawler
 
 
 Crash course
 ------------
 
 ```javascript
-var Crawler = require("crawler").Crawler;
+var Crawler = require("splitzee-crawler").Crawler;
 
 var c = new Crawler({
 "maxConnections":10,
