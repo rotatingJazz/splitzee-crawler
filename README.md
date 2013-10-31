@@ -1,5 +1,9 @@
-node-crawler
-------------
+Splitzee node-crawler
+---------------------
+
+This custom version of the node-crawler is 10-40% faster than the stock node-crawler package and uses a new HTML5 parser though cheerio vs jsdom for greater flexibility.
+Do use it with Node > 0.8.14 to avoid memory leaks.
+This package works successfully with 0.8.20+ and 0.10.10+
 
 node-crawler aims to be the best crawling/scraping package for Node.
 
